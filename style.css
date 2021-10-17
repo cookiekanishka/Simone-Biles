@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: deeppink;
+}
+h1{
+    color:darkblue;
+}
+h2{
+    color:darkblue;
+}
+#img1{
+    width:100%;
+    height:400px;
+}
+#home{
+    width:100%;
+    position:absolute;
+    overflow: hidden;
+    background: linear-gradient( gold 50%, lightblue 50%);
+        display:table;
+}
