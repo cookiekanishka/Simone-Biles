@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    background-color: deeppink;
 }
 h1{
     color:darkblue;
@@ -14,8 +13,30 @@ h2{
 }
 #home{
     width:100%;
+    height: 600px;
+    height:100%;
     position:absolute;
     overflow: hidden;
     background: linear-gradient( gold 50%, lightblue 50%);
         display:table;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 80px;
+}
+#ul1{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    right: 30px;
+}
+li{
+    float: left;
+    color:crimson;
+    padding:9px;
 }
